@@ -1,69 +1,50 @@
 # Hi, I'm Tasos Paraskevakis 👋
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Senior%20Software%20Engineer-%230072B8?style=for-the-badge&logo=code&logoColor=white" alt="Senior Software Engineer">
-</p>
+**Senior Software Engineer · Applied AI · E-commerce**  
+Athens, Greece
 
-## About Me
+I build AI applications and the software around them: backend APIs, data pipelines, storefront integrations, and business tools.
 
-I'm a dedicated Senior Software Engineer with over 8 years of experience in developing robust web solutions. I specialize in WordPress development—crafting custom plugins, creating dynamic eShops, and building a variety of websites. I also design integrated ERP systems that streamline invoicing, warehouse management, and WooCommerce operations.
+I've worked in software development since 2017, starting with WordPress, e-commerce, and custom ERP systems. My recent work focuses on LLM agents, retrieval, MCP, and multi-tenant applications.
 
----
+## Selected work
 
-## What I Do
+### AI shopping assistant
 
-- **WordPress & eCommerce:**  
-  Develop tailored plugins, create and manage multiple eShops (4 eShops) and over 10 other websites, and optimize WooCommerce integrations.
-- **ERP Solutions:**  
-  Design custom ERP systems for seamless business process automation.
-- **Full Stack Development:**  
-  Build robust web applications using PHP, Python, and JavaScript.
+Built at NATPROD and used by customers since early 2026. The assistant continues to serve **two stores with more than 10,000 products per tenant**.
 
----
+- Custom LLM tool-calling workflows and Qdrant-backed retrieval.
+- Streaming chat, tenant dashboards, and background catalog indexing with BullMQ and Redis.
+- Magento 2, OpenCart, and WooCommerce integrations for catalog, stock, and order data.
+- Agent traces recording tool outcomes, errors, latency, and token usage.
 
-## Skills & Technologies
+### Anasto — in development
 
-<div align="center">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#">
-</div>
+An independent platform bringing multiple applications under shared accounts, subscriptions, and cross-app SSO. Its next-generation shopping assistant uses tenant-scoped MCP tools, PostgreSQL/pgvector hybrid retrieval, and custom integration with Mistral agents.
 
-<div align="center" style="margin-top: 8px;">
-  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress">
-  <img src="https://img.shields.io/badge/WooCommerce-96588A?style=for-the-badge&logo=woocommerce&logoColor=white" alt="WooCommerce">
-  <img src="https://img.shields.io/badge/FileMaker-333333?style=for-the-badge&logo=filemaker&logoColor=white" alt="FileMaker">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
-</div>
+### TicketFlow
 
-<div align="center" style="margin-top: 8px;">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-</div>
+A ticketing and project management application with a React/TypeScript frontend and an Express/PostgreSQL backend. It includes department-based access, project boards, real-time chat, and integration with Anasto's SSO and subscription entitlements.
 
----
+My earlier work includes rebuilding an ERP **in FileMaker**, integrating WooCommerce inventory and order workflows, and building Python tools for daily competitor-price monitoring.
 
-## Platforms
+## Public projects
 
-<div align="center" style="margin-top: 8px;">
-  <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS">
-  <img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi">
-</div>
+| Project | What you'll find |
+| --- | --- |
+| [AI Team Hub](https://github.com/TasosParaskevakis/ai-team-hub) | Local project management with AI agents assigned planning, coding, and review roles. |
+| [PricePicker](https://github.com/TasosParaskevakis/price_picker) | Python scraping tools for collecting product prices and stock information from e-commerce sites. |
+| [Skroutz Order Automation](https://github.com/TasosParaskevakis/Skroutz-Order-Automation) | A WordPress plugin that creates WooCommerce orders from Skroutz webhooks. |
+| [StoreMCP site](https://github.com/TasosParaskevakis/storemcp-site) | The product website and documentation for StoreMCP for WooCommerce. |
 
----
+## Technologies I use
 
-## Interests
+- **Languages:** TypeScript, JavaScript, Python, PHP, SQL.
+- **Applications and APIs:** Node.js, NestJS, Fastify, Express, React, Next.js, REST, SSE, WebSockets.
+- **AI and retrieval:** custom LLM orchestration, tool calling, MCP, RAG, OpenAI, Mistral, Qdrant, pgvector.
+- **Data and infrastructure:** PostgreSQL, MySQL, Redis, BullMQ, Docker Compose, Traefik, Git.
+- **Commerce and business systems:** WordPress, WooCommerce, Magento 2, OpenCart, FileMaker.
 
-- **Software Development:** Exploring new technologies and personal projects.
-- **Sports:** Tennis and Football.
+## Get in touch
 
----
-
-## Contact
-
-- **Email:** [tasosparaskevakis@gmail.com](mailto:tasosparaskevakis@gmail.com)
-- **LinkedIn:** [Tasos Paraskevakis](https://www.linkedin.com/in/tasos-paraskevakis)
+[Email](mailto:tasosparaskevakis@gmail.com) · [LinkedIn](https://www.linkedin.com/in/tasos-paraskevakis)
